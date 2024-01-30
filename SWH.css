@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif; /* refesh la page */
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #333; /* couleur de la bande tout en haut */
+    color: rgb(255, 255, 255); /* couleur du titre en haut au milieu (ANIME-X) */
+    text-align: center;
+    padding: 10px;   /* taille de la bande noir */
+}
+
+nav {
+    background-color: #ffffff; /* couleur de la barre des sections en haut */
+    padding: 10px; /* taille de la barre des sections en haut */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    max-width: 800px; /* carré avec les sections */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333; /* bande noir avec la date de création du site */
+    color: white; 
+    text-align: center;
+    padding: 10px;
+}
+body {
+    background-image: url('C:/Users/Mahery/Desktop/Site Web/Wano.gif'); /* Remplacez par le chemin réel de votre image */
+    background-size: 1920px 2000px; /* Ajuste la taille de l'image pour couvrir l'ensemble de l'élément */
+    background-position: auto; /* Centre l'image dans l'élément */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
